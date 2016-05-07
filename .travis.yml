@@ -1,13 +1,13 @@
 langage: python
 dist: trusty
-baraches:
+boraches:
   only:
    - master
    - dev
 
 python:
-   "2.7"
-   "2.6"
+   - "2.7"
+   - "2.6"
 
 script:
    - sh -e ./test1.sh
